@@ -16,6 +16,37 @@ javac InterruptSim.java
 java InterruptSim
 ```
 
+## Sample Output
+Keyboard enabled  
+Mouse enabled  
+Printer masked  
+
+Keyboard ? ISR done  
+Mouse ? ISR done  
+Printer masked  
+Keyboard ? ISR done  
+Keyboard ? ISR done  
+Mouse ? ISR done  
+Printer masked  
+Keyboard ? ISR done  
+Mouse ? ISR done  
+Printer masked  
+Keyboard ? ISR done  
+
+=== ISR Log ===  
+19:43:05 - Keyboard  
+19:43:06 - Mouse  
+19:43:07 - Keyboard  
+19:43:08 - Keyboard  
+19:43:09 - Mouse  
+19:43:10 - Keyboard  
+19:43:11 - Mouse  
+19:43:12 - Keyboard  
+
+Simulation complete.  
+
+=== Code Execution Successful ===
+
 # Output
 <img width="432" height="770" alt="Screenshot 2025-10-27 212328" src="https://github.com/user-attachments/assets/75eed145-e6f7-416a-8e53-3d0004fb0a66" />
 <img width="407" height="614" alt="Screenshot 2025-10-27 212341" src="https://github.com/user-attachments/assets/880f909e-3816-4fc9-99ba-0b5fcf788d54" />
